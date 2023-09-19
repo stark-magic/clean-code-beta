@@ -3,6 +3,9 @@ const mocks 		= require( 'ronin-mocks' )
 const UrlHelper		= require( './util/urlHelper' )
 const mongo 		= require( 'mongodb' ).MongoClient
 
+//
+// Main Function
+//
 async function main() {
 	applicationName = "Clean Code Application";
 	try {
